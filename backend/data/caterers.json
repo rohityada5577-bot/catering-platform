@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Royal Catering",
+    "location": "Mumbai",
+    "pricePerPlate": 500,
+    "cuisines": ["Indian", "Chinese"],
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Food Palace",
+    "location": "Pune",
+    "pricePerPlate": 700,
+    "cuisines": ["Punjabi", "South Indian"],
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Delight Caterers",
+    "location": "Delhi",
+    "pricePerPlate": 400,
+    "cuisines": ["Gujarati", "Indian"],
+    "rating": 4.8
+  },
+  {
+    "id": 4,
+    "name": "Grand Feast",
+    "location": "Bangalore",
+    "pricePerPlate": 850,
+    "cuisines": ["Italian", "Mexican"],
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Spice Route Catering",
+    "location": "Hyderabad",
+    "pricePerPlate": 650,
+    "cuisines": ["Hyderabadi", "Mughlai"],
+    "rating": 4.7
+  },
+  {
+    "id": 6,
+    "name": "Celebration Caterers",
+    "location": "Chennai",
+    "pricePerPlate": 550,
+    "cuisines": ["South Indian", "Chinese"],
+    "rating": 4.3
+  },
+  {
+    "id": 7,
+    "name": "Urban Taste",
+    "location": "Ahmedabad",
+    "pricePerPlate": 480,
+    "cuisines": ["Gujarati", "Punjabi"],
+    "rating": 4.1
+  },
+  {
+    "id": 8,
+    "name": "Elite Events Catering",
+    "location": "Jaipur",
+    "pricePerPlate": 900,
+    "cuisines": ["Rajasthani", "Indian"],
+    "rating": 4.9
+  },
+  {
+    "id": 9,
+    "name": "Flavor Junction",
+    "location": "Lucknow",
+    "pricePerPlate": 620,
+    "cuisines": ["Awadhi", "Mughlai"],
+    "rating": 4.4
+  },
+  {
+    "id": 10,
+    "name": "Golden Spoon",
+    "location": "Kolkata",
+    "pricePerPlate": 530,
+    "cuisines": ["Bengali", "Chinese"],
+    "rating": 4.2
+  },
+  {
+    "id": 11,
+    "name": "Happy Meals Catering",
+    "location": "Surat",
+    "pricePerPlate": 450,
+    "cuisines": ["Fast Food", "Indian"],
+    "rating": 4.0
+  },
+  {
+    "id": 12,
+    "name": "Fiesta Caterers",
+    "location": "Goa",
+    "pricePerPlate": 1100,
+    "cuisines": ["Seafood", "Continental"],
+    "rating": 4.8
+  },
+  {
+    "id": 13,
+    "name": "Wedding Bliss Catering",
+    "location": "Indore",
+    "pricePerPlate": 780,
+    "cuisines": ["North Indian", "Chinese"],
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "name": "Luxury Bites",
+    "location": "Nagpur",
+    "pricePerPlate": 670,
+    "cuisines": ["Italian", "Thai"],
+    "rating": 4.4
+  },
+  {
+    "id": 15,
+    "name": "The Food Factory",
+    "location": "Noida",
+    "pricePerPlate": 520,
+    "cuisines": ["Indian", "Continental"],
+    "rating": 4.3
+  },
+  {
+    "id": 16,
+    "name": "Taste Paradise",
+    "location": "Bhopal",
+    "pricePerPlate": 610,
+    "cuisines": ["Punjabi", "Chinese"],
+    "rating": 4.6
+  }
+]
