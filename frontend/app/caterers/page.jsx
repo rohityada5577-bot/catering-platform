@@ -24,29 +24,40 @@ export default function CaterersPage() {
   }, []);
 
 
-  const fetchCaterers = async () => {
+  // const fetchCaterers = async () => {
 
-    try {
+  //   try {
 
-      const res = await axios.get(
-        "http://localhost:5000/api/caterers"
-      );
+  //     const res = await axios.get(
+  //       "http://localhost:5000/api/caterers"
+  //     );
 
-      setCaterers(res.data);
+  //     setCaterers(res.data);
 
-    } catch (error) {
+  //   } catch (error) {
 
-      console.log(error);
+  //     console.log(error);
 
-    } finally {
+  //   } finally {
 
-      setLoading(false);
+  //     setLoading(false);
 
-    }
+  //   }
 
-  };
+  // };
 
+const fetchCaterers = async () => {
+  try {
+    const res = await fetch("/caterers.json");
+    const data = await res.json();
 
+    setCaterers(data);
+  } catch (error) {
+    console.log(error);
+  } finally {
+    setLoading(false);
+  }
+};
   const filteredCaterers = caterers.filter((item) => {
 
     const matchName = item.name
